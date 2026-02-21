@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/levskardle/:path*", "destination": "https://levskardle-9f11.vercel.app/:path*" }
+  ]
+}
