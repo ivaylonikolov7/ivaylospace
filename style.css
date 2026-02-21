@@ -1,0 +1,93 @@
+:root {
+  --color-dark:   #355872;
+  --color-mid:    #7AAACE;
+  --color-light:  #9CD5FF;
+  --color-bg:     #F7F8F0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-bg);
+  font-family: sans-serif;
+}
+
+a {
+  color: var(--color-mid);
+}
+
+a:hover {
+  color: var(--color-light);
+}
+
+main {
+  max-width: 640px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--color-bg);
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 0.6;
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.projects {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.projects li {
+  border-left: 3px solid var(--color-mid);
+  padding-left: 1rem;
+}
+
+.projects a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.projects p {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 2rem;
+  opacity: 0.5;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  color: var(--color-bg);
+}
+
+footer a:hover {
+  opacity: 0.8;
+  color: var(--color-bg);
+}
+
+footer img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
